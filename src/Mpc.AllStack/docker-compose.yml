@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mpc.allstack.webappmvc:
+    image: ${DOCKER_REGISTRY}mpcallstackwebappmvc
+    build:
+      context: .
+      dockerfile: Mpc.AllStack.WebAppMvc/Dockerfile

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mpc.AllStack.Application.Dto\Mpc.AllStack.Application.Dto.csproj" />
+    <ProjectReference Include="..\Mpc.AllStack.Data.Services\Mpc.AllStack.Data.Services.csproj" />
+  </ItemGroup>
+
+</Project>

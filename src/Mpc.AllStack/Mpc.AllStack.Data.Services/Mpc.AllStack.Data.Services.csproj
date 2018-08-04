@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mpc.AllStack.Domain.Models\Mpc.AllStack.Domain.Models.csproj" />
+    <ProjectReference Include="..\Mpc.AllStack.Infrastructure.CrossCutting\Mpc.AllStack.Infrastructure.CrossCutting.csproj" />
+  </ItemGroup>
+
+</Project>

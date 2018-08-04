@@ -1,0 +1,19 @@
+﻿@model Mpc.AllStack.Application.Dto.NasaImage
+
+<h1>Nasa Image</h1>
+<h2>Dia: @Model.Date.ToString("yyyy-MM-dd")</h2>
+
+<h3>@Model.Title</h3>
+
+@if (Model.MediaType == "image")
+{
+    <img src="@Model.Url" alt="@Model.Title" style="height: 60%; width: 60%" />
+}
+else
+{
+    <iframe id="apod_vid_id" type="text/html" src="@Model.Url" width="640" height="385" frameborder="0"></iframe>
+}
+
+<p>
+    @Model.Description
+</p>
