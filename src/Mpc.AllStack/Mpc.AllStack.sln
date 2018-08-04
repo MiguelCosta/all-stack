@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mpc.AllStack.WebAppMvc", "Mpc.AllStack.WebAppMvc\Mpc.AllStack.WebAppMvc.csproj", "{65323EF9-82AB-452D-8B78-4E713E4E7292}"
-EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{499A0DA7-F808-4232-AEA7-4AFB3E318316}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mpc.AllStack.WebAppMvc", "Mpc.AllStack.WebAppMvc\Mpc.AllStack.WebAppMvc.csproj", "{65323EF9-82AB-452D-8B78-4E713E4E7292}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{E0253C25-3D42-4570-BFAA-45DF6D3F5EE7}"
 EndProject
@@ -15,17 +13,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Data", "4 - Data", "{5A9D4816-A628-47BB-BDF3-A80E740F0427}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mpc.AllStack.Application.Services", "Mpc.AllStack.Application.Services\Mpc.AllStack.Application.Services.csproj", "{D59C091D-08AD-4D20-8F59-BD2CFAABB976}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mpc.AllStack.Application.Services", "Mpc.AllStack.Application.Services\Mpc.AllStack.Application.Services.csproj", "{D59C091D-08AD-4D20-8F59-BD2CFAABB976}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mpc.AllStack.Domain.Models", "Mpc.AllStack.Domain.Models\Mpc.AllStack.Domain.Models.csproj", "{5A21A97C-C84C-4BCC-8583-6EFE62FCAFE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mpc.AllStack.Domain.Models", "Mpc.AllStack.Domain.Models\Mpc.AllStack.Domain.Models.csproj", "{5A21A97C-C84C-4BCC-8583-6EFE62FCAFE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mpc.AllStack.Application.Dto", "Mpc.AllStack.Application.Dto\Mpc.AllStack.Application.Dto.csproj", "{C09D6386-FB84-4860-A251-CB7A3CFE2914}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mpc.AllStack.Application.Dto", "Mpc.AllStack.Application.Dto\Mpc.AllStack.Application.Dto.csproj", "{C09D6386-FB84-4860-A251-CB7A3CFE2914}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mpc.AllStack.Data.Services", "Mpc.AllStack.Data.Services\Mpc.AllStack.Data.Services.csproj", "{A99AF4CD-ACB7-4BA1-8626-FD02D5AC827F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mpc.AllStack.Data.Services", "Mpc.AllStack.Data.Services\Mpc.AllStack.Data.Services.csproj", "{A99AF4CD-ACB7-4BA1-8626-FD02D5AC827F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infrastructure", "5 - Infrastructure", "{D1C75527-1C3E-47D6-9251-C0C7A67FB378}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mpc.AllStack.Infrastructure.CrossCutting", "Mpc.AllStack.Infrastructure.CrossCutting\Mpc.AllStack.Infrastructure.CrossCutting.csproj", "{33E466B0-AEA6-49FF-8682-F1BF7D3E83B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mpc.AllStack.Infrastructure.CrossCutting", "Mpc.AllStack.Infrastructure.CrossCutting\Mpc.AllStack.Infrastructure.CrossCutting.csproj", "{33E466B0-AEA6-49FF-8682-F1BF7D3E83B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +35,6 @@ Global
 		{65323EF9-82AB-452D-8B78-4E713E4E7292}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65323EF9-82AB-452D-8B78-4E713E4E7292}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65323EF9-82AB-452D-8B78-4E713E4E7292}.Release|Any CPU.Build.0 = Release|Any CPU
-		{499A0DA7-F808-4232-AEA7-4AFB3E318316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{499A0DA7-F808-4232-AEA7-4AFB3E318316}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{499A0DA7-F808-4232-AEA7-4AFB3E318316}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{499A0DA7-F808-4232-AEA7-4AFB3E318316}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D59C091D-08AD-4D20-8F59-BD2CFAABB976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D59C091D-08AD-4D20-8F59-BD2CFAABB976}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D59C091D-08AD-4D20-8F59-BD2CFAABB976}.Release|Any CPU.ActiveCfg = Release|Any CPU
