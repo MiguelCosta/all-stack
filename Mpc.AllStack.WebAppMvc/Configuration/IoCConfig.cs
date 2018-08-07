@@ -11,22 +11,15 @@
             IConfiguration configuration)
         {
             // AppSettings
-            var appSettings = new AppSettings
-            {
-                Nasa = new NasaSettings
-                {
-                    ApiKey = "kjptAj2XBVAZu8mJUSlq7acQ4ak1taT5w0sQ6vYW",
-                    BaseUrl = "https://api.nasa.gov/planetary/"
-                }
-            };
-
-            //var appSettings = configuration.Get<AppSettings>();
+            var appSettings = configuration.Get<AppSettings>();
             services.AddSingleton(appSettings);
             services.AddSingleton(appSettings.Nasa);
+            services.AddSingleton(appSettings.Redis);
 
             // Services
             Application.Services.Configuration.IoCConfig.ConfigureDependencies(services, configuration);
             Data.Services.Configuration.IoCConfig.ConfigureDependencies(services, configuration);
+            Infrastructure.CrossCutting.Configuration.IoCConfig.ConfigureDependencies(services, configuration);
 
             return services;
         }
