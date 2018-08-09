@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mpc.AllStack.WebAppMvc", "Mpc.AllStack.WebAppMvc\Mpc.AllStack.WebAppMvc.csproj", "{65323EF9-82AB-452D-8B78-4E713E4E7292}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{499A0DA7-F808-4232-AEA7-4AFB3E318316}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{E0253C25-3D42-4570-BFAA-45DF6D3F5EE7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{A957005E-8164-4D25-ADBB-36446C344728}"
@@ -35,6 +37,10 @@ Global
 		{65323EF9-82AB-452D-8B78-4E713E4E7292}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65323EF9-82AB-452D-8B78-4E713E4E7292}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65323EF9-82AB-452D-8B78-4E713E4E7292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{499A0DA7-F808-4232-AEA7-4AFB3E318316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{499A0DA7-F808-4232-AEA7-4AFB3E318316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{499A0DA7-F808-4232-AEA7-4AFB3E318316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{499A0DA7-F808-4232-AEA7-4AFB3E318316}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D59C091D-08AD-4D20-8F59-BD2CFAABB976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D59C091D-08AD-4D20-8F59-BD2CFAABB976}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D59C091D-08AD-4D20-8F59-BD2CFAABB976}.Release|Any CPU.ActiveCfg = Release|Any CPU

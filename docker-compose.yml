@@ -1,0 +1,25 @@
+version: '3.4'
+
+services:
+  mpc.allstack.webappmvc:
+    image: ${DOCKER_REGISTRY}mpcallstackwebappmvc
+    build:
+      context: .
+      dockerfile: Mpc.AllStack.WebAppMvc/Dockerfile
+    ports:
+      - "20000:80"
+    networks:
+      - allstack-network
+    depends_on:
+      - "allstackredis"
+
+  allstackredis:
+    image: redis
+    ports:
+      - "16379:6379"
+    networks:
+      - "allstack-network"
+
+networks:
+  allstack-network:
+    driver: bridge
